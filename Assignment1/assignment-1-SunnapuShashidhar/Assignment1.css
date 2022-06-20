@@ -1,0 +1,103 @@
+.container{
+  border: solid black 1px;
+  padding-bottom: 10px;
+}
+.forborder{
+  border: black 2px;
+  padding: 0 30px;
+}
+.flex-container{
+  display: flex;
+  background-color: red;
+  color: white;
+  height: 40px;
+  align-items: center;
+  justify-content: space-between;
+}
+hr{
+  margin: 10px 20px;
+}
+.card{
+  border:solid 1px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: black;
+  }
+  .cuis{
+    margin-left: 20px;
+  }
+.flex-item1{
+  flex-grow: 1;
+}
+.flex-item2{
+
+  flex-direction: row-reverse;
+  flex-grow: 2;
+  margin-left: 200px;
+}
+.flex-item2 a{
+  color: white;
+  border: solid white 1px;
+  border-radius: 6px;
+  padding: 6px;
+  justify-content: right;
+ text-decoration: none;
+}
+h2{
+  color:darkblue;
+  margin-left: 30px;
+}
+h4{
+  color:darkblue;
+  margin: 0;
+}
+.filter{
+  display: grid;
+  grid-template-columns: 200px 500px;
+  grid-auto-rows: minmax(150px,auto);
+  grid-gap: 0px;
+  grid-template-areas: 
+  "f i"
+  "f j"
+}
+.filt{
+  grid-area: f;
+  padding: 20px 0px;
+  box-shadow: black 2px;
+  border: black 1px;
+}
+.big{
+  grid-area: i;
+}
+.bake{
+  grid-area: j;
+}
+.imgtit{
+display: flex;
+align-items: center;
+}
+img{
+  border-radius: 5px;
+  margin: 20px;
+}
+.fort{
+  color: darkblue;
+}
+.culsines{
+  padding: 10px 0;
+}
+.sort{
+  padding: 10px 0;
+}
+.scroolnum{
+  border: solid black 1px;
+  padding: 2px 4px;
+  border-radius: 5px;
+  margin: 0px 5px;
+
+}
+.scrool{
+  display: flex;
+  justify-content: center;
+margin-top: 20px;
+}
