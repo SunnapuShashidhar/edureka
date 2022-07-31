@@ -1,0 +1,7 @@
+update() or updateMany() --update the document with the specifiend value
+findOneAndUpdate(search,updateParameter)--search for search parameter and update it with updateParameter
+findAndUpdate()
+db.product.update({"name":"iphone 12s"},{$set:{"model":"12"}})
+
+//$ npx express-generator
+
